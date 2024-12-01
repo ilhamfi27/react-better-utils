@@ -1,4 +1,5 @@
-import { FC, PropsWithChildren } from 'react';
+import * as react from 'react';
+import { FC, PropsWithChildren, ReactNode } from 'react';
 
 type ShowWhenType = PropsWithChildren<{
     isTrue: boolean;
@@ -13,4 +14,14 @@ interface ShowI extends FC<PropsWithChildren> {
 
 declare const Show: ShowI;
 
-export { Show };
+interface EachProps<T> {
+    render: ({ item, index }: {
+        item: T;
+        index: number;
+    }) => ReactNode;
+    of: T[];
+}
+
+declare const Each: <T>({ render, of }: EachProps<T>) => (string | number | react.ReactElement<any, string | react.JSXElementConstructor<any>> | Iterable<react.ReactNode> | react.ReactPortal)[];
+
+export { Each, Show };

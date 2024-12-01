@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ilhamfi27/react-better-utils/compare/v1.0.0...v1.1.0) (2024-12-01)
+
+
+### Features
+
+* initiate each renderer ([3dea3ab](https://github.com/ilhamfi27/react-better-utils/commit/3dea3ab09216af2e51879824a7243a63d5ef525b))
+
 # 1.0.0 (2024-12-01)
 
 
