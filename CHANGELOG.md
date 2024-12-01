@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ilhamfi27/react-better-utils/compare/v1.1.0...v1.1.1) (2024-12-01)
+
+
+### Bug Fixes
+
+* type call ([ee64859](https://github.com/ilhamfi27/react-better-utils/commit/ee64859051b8f3244f69e8d44a7d43cf472d4618))
+
 # [1.1.0](https://github.com/ilhamfi27/react-better-utils/compare/v1.0.0...v1.1.0) (2024-12-01)
 
 
