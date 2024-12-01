@@ -25,6 +25,10 @@
         "url": "https://github.com/ilhamfi27/react-better-utils/issues"
     },
     "homepage": "https://github.com/ilhamfi27/react-better-utils#readme",
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
     "devDependencies": {
         "@babel/preset-env": "^7.26.0",
         "@babel/preset-react": "^7.25.9",

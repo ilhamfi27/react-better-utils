@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 export interface EachProps<T> {
   render: ({ item, index }: { item: T; index: number }) => ReactNode;

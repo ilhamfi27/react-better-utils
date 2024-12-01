@@ -1,5 +1,5 @@
 import { ShowI, ShowWhenType, ShowElseType } from './Show.types';
-import { Children, FC, PropsWithChildren, ReactElement } from 'react';
+import React, { Children, FC, PropsWithChildren, ReactElement } from 'react';
 
 const ShowWhen: FC<ShowWhenType> = ({ children }: ShowWhenType) => {
   return <>{children}</>;

@@ -1,4 +1,4 @@
-import { Children } from 'react';
+import React, { Children } from 'react';
 import { EachProps } from './Each.types';
 
 export const Each = <T,>({ render, of }: EachProps<T>) => {
