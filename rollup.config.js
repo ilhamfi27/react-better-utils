@@ -29,12 +29,11 @@ export default [
       typescript({ tsconfig: './tsconfig.json' }),
       terser(),
     ],
-    external: ['react', 'react-dom'],
+    external: ['react', /^react\/.*/, 'react-dom', /react-dom\/.*/],
   },
   {
     input: 'src/index.ts',
-    output: [{ file: 'dist/types.d.ts', format: 'es' }],
+    output: [{ file: packageJson.types, format: 'es' }],
     plugins: [dts.default()],
-    external: [/\.css$/],
   },
 ];
