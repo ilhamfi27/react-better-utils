@@ -4,7 +4,7 @@
     "description": "Better utility for your react apps",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
-    "types": "dist/index.d.ts",
+    "types": "dist/types.d.ts",
     "scripts": {
         "build": "rm -rf dist && tsc && yarn rollup",
         "test": "jest",
