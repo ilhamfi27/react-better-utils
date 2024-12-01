@@ -6,6 +6,8 @@ This is a ReactJS library to help you have a better, clean and readable code whe
 
 ## Usage
 
+### Show Util
+
 See this code. With more than one condition that need to be handled, it barely readable right? It also less maintainable if we need to add condition.
 
 ```tsx
@@ -48,7 +50,7 @@ But if you use `react-better-utils`, you can organize your code better and with 
 
 ```tsx
 import React from 'react';
-import { Show } from 'react-better-utils'; // Replace with your actual library name
+import { Show } from 'react-better-utils';
 
 const UserDashboard = ({
   user,
@@ -94,6 +96,58 @@ const UserDashboard = ({
 };
 
 export default UserDashboard;
+```
+
+### Each Util
+
+Iterating in React are simple, we add iteration from an array and then render it. Like below:
+
+```tsx
+import React from 'react';
+
+const items = ['Apple', 'Banana', 'Cherry'];
+
+const WithoutEach = () => {
+  return (
+    <div>
+      <h2>Without Each</h2>
+      {items.map((item, index) => (
+        <div key={index} className="item">
+          {index + 1}. {item}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default WithoutEach;
+```
+
+Using `Each` component from `react-better-utils` will make iteration inside your code more readable, cleaner, and more maintainable
+
+```tsx
+import React from 'react';
+import { Each } from 'react-better-utils';
+
+const items = ['Apple', 'Banana', 'Cherry'];
+
+const WithEach = () => {
+  return (
+    <div>
+      <h2>With Each</h2>
+      <Each
+        of={items}
+        render={({ item, index }) => (
+          <div key={index} className="item">
+            {index + 1}. {item}
+          </div>
+        )}
+      />
+    </div>
+  );
+};
+
+export default WithEach;
 ```
 
 ## Installation
