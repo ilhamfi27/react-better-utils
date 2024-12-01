@@ -1,5 +1,4 @@
-import * as react from 'react';
-import { FC, PropsWithChildren, ReactNode } from 'react';
+import React, { FC, PropsWithChildren, ReactNode } from 'react';
 
 type ShowWhenType = PropsWithChildren<{
     isTrue: boolean;
@@ -22,6 +21,6 @@ interface EachProps<T> {
     of: T[];
 }
 
-declare const Each: <T>({ render, of }: EachProps<T>) => (string | number | react.ReactElement<any, string | react.JSXElementConstructor<any>> | Iterable<react.ReactNode> | react.ReactPortal)[];
+declare const Each: <T>({ render, of }: EachProps<T>) => (string | number | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal)[];
 
 export { Each, Show };

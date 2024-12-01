@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/ilhamfi27/react-better-utils/compare/v1.1.1...v1.1.2) (2024-12-01)
+
+
+### Bug Fixes
+
+* rollup build dependency ([299c3f2](https://github.com/ilhamfi27/react-better-utils/commit/299c3f2e53b7c3d7277df1ae2037037edab76e0c))
+
 ## [1.1.1](https://github.com/ilhamfi27/react-better-utils/compare/v1.1.0...v1.1.1) (2024-12-01)
 
 
