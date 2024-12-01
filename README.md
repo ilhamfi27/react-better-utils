@@ -189,6 +189,22 @@ Prop | Type | Description
 `render` | boolean | Optional additional render condition.
 `children` | ReactNode | Contains `Show.When` and/or `Show.Else`.
 
+### `Each`
+
+Iteration renderer for array object.
+Prop | Type | Description
+--- | --- | ---
+`of` | object | Data that will be rendered.
+`render` | Callback Function | Render anything inside the callback function.
+
+### `render` Parameters on `Each` Component
+
+`render` Callback Function params.
+Prop | Type | Description
+--- | --- | ---
+`item` | object | Single data item to be rendered.
+`index` | number | Index number of data.
+
 ## Development
 
 ### Running Locally
