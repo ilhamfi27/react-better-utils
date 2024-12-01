@@ -1,6 +1,6 @@
 {
     "name": "react-better-utils",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Better utility for your react apps",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
