@@ -4,6 +4,22 @@
 
 This is a ReactJS library to help you have a better, clean and readable code when it comes to iterating and conditioning things in your `JSX` or `TSX` file.
 
+## Table of Contents
+- [Usage](#usage)
+  - [Show Util](#show-util)
+  - [Each Util](#each-util)
+- [Installation](#installation)
+- [API Reference](#api-reference)
+  - [Show](#show)
+  - [Show.When](#showwhen)
+  - [Show.Else](#showelse)
+  - [Each](#each)
+  - [render Parameters on Each Component](#render-parameters-on-each-component)
+- [Development](#development)
+  - [Running Locally](#running-locally)
+  - [Testing](#testing)
+- [Contributing](#contributing)
+
 ## Usage
 
 ### Show Util
