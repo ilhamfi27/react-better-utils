@@ -2,9 +2,12 @@
 
 [![Test and Build Workflow](https://github.com/ilhamfi27/react-better-utils/actions/workflows/test-and-build.yml/badge.svg)](https://github.com/ilhamfi27/react-better-utils/actions/workflows/test-and-build.yml)
 
+[![NPM](https://nodei.co/npm/react-better-utils.png?compact=true)](https://www.npmjs.com/package/react-better-utils)
+
 This is a ReactJS library to help you have a better, clean and readable code when it comes to iterating and conditioning things in your `JSX` or `TSX` file.
 
 ## Table of Contents
+
 - [Usage](#usage)
   - [Show Util](#show-util)
   - [Each Util](#each-util)
